@@ -5,7 +5,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-
 / {
   behaviors {
     bhm: balanced_homerow_mods {
@@ -90,7 +89,7 @@
                                                                   &lt 1 SPACE   &lt 2 BSPC  &lt 3 ENTER
       >;
     };
-      
+
     lower_layer {
       bindings = <
         &kp F7          &kp F5        &kp F3        &kp F1        &kp F9        &kp F10     &kp F2          &kp  F4       &kp F6        &kp F8
@@ -99,7 +98,7 @@
                                                                   &none         &kp BSPC    &kp PAUSE_BREAK
       >;
     };
-        
+
     raise_layer {
       bindings = <
         &kp ESC         &kp HOME      &kp UP        &kp END       &none         &bootloader	&tog 5          &tog 6        &none         &kp DEL
@@ -126,7 +125,7 @@
                                                                   &lt 1 SPACE	  &lt 2 BSPC  &lt 3 ENTER
       >;
     };
-    
+
     gaming_layer {
       bindings = <
         &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp	T       &kp Z           &kp U         &kp I       &kp O
